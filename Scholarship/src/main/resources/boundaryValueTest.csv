@@ -1,0 +1,15 @@
+gpa, credits, isDisciplined, activityScore, expected
+3.2, 12, false, 80, VERY_GOOD
+0, 12, false, 80, UNQUALIFIED
+0.1, 12, false, 80, UNQUALIFIED
+3.9, 12, false, 80, VERY_GOOD
+4, 12, false, 80, VERY_GOOD
+3.2, 0, false, 80, UNQUALIFIED
+3.2, 1, false, 80, UNQUALIFIED
+3.2, 23, false, 80, VERY_GOOD
+3.2, 24, false, 80, VERY_GOOD
+3.2, 12, true, 80, UNQUALIFIED
+3.2, 12, false, 0, UNQUALIFIED
+3.2, 12, false, 1, UNQUALIFIED
+3.2, 12, false, 99, VERY_GOOD
+3.2, 12, false, 100, VERY_GOOD
