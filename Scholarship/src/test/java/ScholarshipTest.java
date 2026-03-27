@@ -18,4 +18,11 @@ public class ScholarshipTest {
         ScholarshipService scholarshipService = new ScholarshipService();
         assertEquals(expected, scholarshipService.getScholarship(gpa, credits, isDisciplined, activity));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/branchCoverageTest.csv", numLinesToSkip = 1)
+    void branchCoverageTest(double gpa, int credits, boolean isDisciplined, int activity, String expected) {
+        ScholarshipService scholarshipService = new ScholarshipService();
+        assertEquals(expected, scholarshipService.getScholarship(gpa, credits, isDisciplined, activity));
+    }
 }
